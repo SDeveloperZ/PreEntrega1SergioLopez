@@ -1,4 +1,4 @@
-import { TiShoppingCart } from 'react-icons/ti';
+import CartWidget from './CartWidget';
 import logo from '../img/logo.png';
 
 
@@ -13,11 +13,15 @@ export function Nav() {
 
     return (
       <nav className='nav-container'>
+        <div className='logo-container'>
         <img src={logo} alt="Mi Logo" className="logo" />
-        {menuItems.map(menuItem => ` ${menuItem}`)}
-        <span>
-        <TiShoppingCart />
-        </span> 
+        </div>
+        <ul className="menu-items">
+      {menuItems.map(menuItem => <li key={menuItem}>{menuItem}</li>)}
+      <li>
+        <CartWidget/>
+      </li>
+    </ul>
       </nav>
     );
   }
