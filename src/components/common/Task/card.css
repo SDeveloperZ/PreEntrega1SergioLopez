@@ -1,0 +1,41 @@
+.card-container {
+  text-align: center;
+}
+
+.list-container {
+  max-width: 1000px; /* width max container */
+  margin: 0 auto; /* Margen  automático en los lados izquierdo y derecho */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 10px; /* Agrega un espacio interno a los lados del contenedor */
+}
+.task {
+  width: 230px; /* width card */
+  background-color: #0e0d0dec;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.task-image {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.stock {
+  font-weight: bold;
+  color: rgb(12, 150, 8);
+}
