@@ -9,6 +9,7 @@ const Card = ({ img, title, description, stock }) => {
         <div className="description">{description}</div>
         <div className="stock">{stock}</div>
       </div>
+      
     </div>
   );
 };

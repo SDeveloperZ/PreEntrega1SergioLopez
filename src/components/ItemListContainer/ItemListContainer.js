@@ -1,10 +1,10 @@
-import { Card } from "../../common/Task/card";
-import honeyImage from "../../../img/honey.png";
-import goldenImage from "../../../img/golden.png";
-import redImage from "../../../img/red.png";
-import robustImage from "../../../img/robust.png";
-import salvajeImage from "../../../img/salvaje.png";
-import temploImages from "../../../img/templo.png";
+import { Card } from "../common/Cards/card";
+import honeyImage from "../../assets/honey.png";
+import goldenImage from "../../assets/golden.png";
+import redImage from "../../assets/red.png";
+import robustImage from "../../assets/robust.png";
+import salvajeImage from "../../assets/salvaje.png";
+import temploImages from "../../assets/templo.png";
 
 const ItemListContainer = ({ greeting }) => {
   return (

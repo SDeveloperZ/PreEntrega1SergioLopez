@@ -1,5 +1,5 @@
-import CartWidget from "./CartWidget";
-import logo from "../img/logo.png";
+import CartWidget from "../CartWidget/CartWidget";
+import logo from "../../assets/logo.png";
 
 export function Nav() {
   const menuItems = ["Inicio", "Reserva", "Contacto "];
